@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 MAINTAINER Brian Ennis
-LABEL "code derived from chrishah/cnvnator-docker"
+#code derived from chrishah/cnvnator-docker
 
 RUN apt-get update && apt-get -y upgrade && apt-get install -y build-essential git wget \
 	zlib1g-dev libncurses5-dev libbz2-dev liblzma-dev libcurl3-dev \
